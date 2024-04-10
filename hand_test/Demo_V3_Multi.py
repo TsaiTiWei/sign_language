@@ -4,7 +4,7 @@ import numpy as np
 import joblib
 
 # Initialize mediapipe Hands Detection
-mp_hands = mp.solutions.hands
+mp_hands = mp.solutions.hands  
 hands = mp_hands.Hands()
 
 # 載入 SVM 模型和標準化器

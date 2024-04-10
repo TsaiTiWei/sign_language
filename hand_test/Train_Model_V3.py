@@ -5,7 +5,7 @@ from sklearn.svm import SVC
 import joblib
 
 # Define different len_hand values
-len_hands = [1, 2]
+len_hands = [1, 2]   
 
 for len_hand in len_hands:
     if len_hand == 1:

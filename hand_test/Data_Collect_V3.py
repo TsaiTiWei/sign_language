@@ -8,6 +8,7 @@ import os  # 導入檔案操作模組
 mp_hands = mp.solutions.hands # 偵測手掌方法
 hands = mp_hands.Hands() # 初始化手部追蹤
 
+
 len_hand = 1
 
 def compute_distances(landmarks):
